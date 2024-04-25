@@ -1,0 +1,42 @@
+a {
+    color: violet;
+    font-family: Montserrat;
+    font-weight: 900;
+    padding-left: 20px;
+}
+span{
+    padding-left: 0;
+    padding-right: 20px;
+}
+h1{
+    color: red;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+h2{
+    font-family: georgia;
+    color: blue;
+}
+.a{
+    padding: 20px;
+}
+.logo{
+    background: rgb(143, 20, 27);
+    padding-left: 75px;
+    width: 100vw;
+    height: 92px;
+
+}
+.logo-usco,.escudo-col,.acreditación{
+    padding: 15px 0 0 10px;
+}
+.gov{
+    background: rgb(0, 102, 205);
+    height: 26px;
+    width: 100vw;
+    
+}
+.logo-gov {
+    height: 15px;
+    padding: 5.5px;
+}
