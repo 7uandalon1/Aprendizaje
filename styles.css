@@ -1,47 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 a {
-    color: violet;
-    font-family: Montserrat;
-    font-weight: 900;
-    padding-left: 20px;
+  color: violet;
+  font-family: Montserrat;
+  font-weight: 900;
+  padding-left: 20px;
 }
-span{
-    padding-left: 0;
-    padding-right: 20px;
+span {
+  padding-left: 0;
+  padding-right: 20px;
 }
-h1{
-    color: red;
-    font-family: Montserrat;
-    font-weight: 700;
-    text-align: center;
+.titulo-principal {
+  color: rgb(143, 20, 27);
+  font-family: "Noto Serif";
+  font-weight: 700;
+  text-align: center;
 }
-h2{
-    font-family: georgia;
-    color: blue;
-    
+h2 {
+  font-family: georgia;
+  color: blue;
 }
-.a{
-    padding: 20px;
+.a {
+  padding: 20px;
 }
-.logo{
-    background: rgb(143, 20, 27);
-    padding-left: 75px;
-    width: 100vw;
-    height: 92px;
-
+.logo {
+  background: rgb(143, 20, 27);
+  padding-left: 75px;
+  width: 100vw;
+  height: 92px;
 }
-.logo-usco,.escudo-col,.acreditación{
-    padding: 15px 0 0 10px;
+.logo-usco,
+.escudo-col,
+.acreditación {
+  padding: 15px 0 0 10px;
 }
-.gov{
-    background: rgb(0, 102, 205);
-    height: 26px;
-    width: 100vw;
-    
+.gov {
+  background: rgb(0, 102, 205);
+  height: 26px;
+  width: 100vw;
 }
 .logo-gov {
-    height: 15px;
-    padding: 5.5px;
+  height: 15px;
+  padding: 5.5px;
 }
-body{
-    margin:0;
+body {
+  margin: 0;
+}
+#form-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 20vw;
+  gap: 5px;
+}
+.input_formularios {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
