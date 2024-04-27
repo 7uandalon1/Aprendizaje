@@ -12,10 +12,12 @@ h1{
     color: red;
     font-family: Montserrat;
     font-weight: 700;
+    text-align: center;
 }
 h2{
     font-family: georgia;
     color: blue;
+    
 }
 .a{
     padding: 20px;
@@ -39,4 +41,7 @@ h2{
 .logo-gov {
     height: 15px;
     padding: 5.5px;
+}
+body{
+    margin:0;
 }
